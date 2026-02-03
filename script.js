@@ -11,7 +11,7 @@ document.getElementById("travelForm").addEventListener("submit", function (e) {
     preferences: document.getElementById("preferences").value
   };
 
-  const webhookURL = "https://dhandapani.app.n8n.cloud/webhook/602ace3a-7fa0-4198-be51-ad9503319e75";
+  const webhookURL = "https://kamalesh2525.app.n8n.cloud/webhook-test/f3cd2a08-f211-4609-9563-fe00a4f68ec9";
 
   fetch(webhookURL, {
     method: "POST",
